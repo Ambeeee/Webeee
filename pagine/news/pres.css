@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --bluelectric: #2424F2;
+    --ambeee: #E7A026;
+    --black: black;
+    --white: white;
+    --ombrablu: 0px 0px 20px 20px #2424f267;
+    --ombrarancione: 0px 0px 20px 20px rgba(248, 123, 6, 0.4);
+    --link: #13FF22;
+}
+
+body{
+    background-color: var(--black);
+}
+
+#sfondo1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 70;
+    right: 0;
+}
+
+
+/*NAVBAR*/
+#navbar{
+    width:100%;
+    height: 70px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+#logo{
+    width:50px;
+    position: absolute;
+    left:20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#logo:hover{
+    transform: scale(1.10);
+}
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right:20px;
+}
+.menuTab{
+    margin:0 40px;
+    font-size:20px;
+    color: var(--white);
+    font-family: "Itim";
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.menuTab:hover{
+    transform: scale(1.10);
+}
+
+
+/*TITOLO*/
+
+
+/*style="font-family: Forte;"*/
+@font-face {
+	font-family: 'Shelman';
+	src: url('img/SHELMAN.ttf');
+	}
+
+#intestazione{
+    position: absolute;
+    z-index: 0;
+    top:250px;
+    left:750px;
+}
+
+#welcome{
+    color:var(--white);
+    top:200;
+    font-size: 120px;
+    line-height: 100%;
+    margin-left: 300px;
+}
+
+/*PAGINA*/
+
+
+#introPres{
+    position: absolute;
+    height: 500px;
+    z-index: 0;
+    top:300px;
+    left:10px;
+}
+
+#paginaPres{
+    width:100%;
+    height:200vh;
+    background-color: var(--ambeee);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top:100vh;
+    padding-left:10px;
+    padding-top: 0vh;
+    
+}
+
+
+.notizia{
+    width:700px;
+    height:auto;
+    background-color: var(--white);
+    margin: 60 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 25px;
+}
+.newsImg{
+    width:calc(100% - 40px);
+    height:170px;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.newslImg img{
+    margin-top: 500;
+    height:400px;
+}
+.newsT{
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Itim";
+    color:var(--black);
+    font-weight: bold;
+    font-size:30px;
+    width:100%;
+    text-align: left;
+}
+
+.newsDesc{
+    margin-top: 20px;
+    font-family: "Roboto Mono";
+    color:var(--black);
+    font-size: 15px;
+    width:100%;
+    text-align: left;
+}
+

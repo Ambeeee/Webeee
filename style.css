@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --bluelectric: #2424F2;
+    --ambeee: #E7A026;
+    --black: black;
+    --white: white;
+    --ombrablu: 0px 0px 20px 20px #2424f267;
+    --ombrarancione: 0px 0px 20px 20px rgba(248, 123, 6, 0.4);
+    --link: #13FF22;
+}
+
+body{
+    background-color: var(white);
+}
+
+#sfondo1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 70;
+    right: 0;
+}
+
+
+/*NAVBAR*/
+#navbar{
+    width:100%;
+    height: 70px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+#logo{
+    width:50px;
+    position: absolute;
+    left:20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#logo:hover{
+    transform: scale(1.10);
+}
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right:20px;
+}
+.menuTab{
+    margin:0 40px;
+    font-size:20px;
+    color: var(--white);
+    font-family: "Itim";
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.menuTab:hover{
+    transform: scale(1.10);
+}
+
+
+/*TITOLO*/
+
+
+/*style="font-family: Forte;"*/
+@font-face {
+	font-family: 'Shelman';
+	src: url('img/SHELMAN.ttf');
+	}
+
+#intestazione{
+    position: absolute;
+    z-index: 0;
+    top:400px;
+    left:100px;
+}
+#welcome{
+    color:var(--black);
+    top:500;
+    font-size:45px;
+    line-height: 100%;
+}
+#webeeeT{
+    color:var(--bluelectric);
+    font-size: 400px;
+    left: 130px;
+    line-height: 65%;
+}
+
+
+
+/*PAGINA*/
+
+#pagina{
+    width:100%;
+    height:200vh;
+    background-color: var(--ambeee);
+    position: absolute;
+    top:95vh;
+    padding-top: 15vh;
+    
+}
+
+
+/*La sai l'ultima?*/
+
+
+#lasaisez{
+    width:450px;
+    height:300px;
+    background-color: var(--white);
+    border-radius: 25px;
+    margin:0 auto;
+    margin-left: 900px;
+}
+
+#lasaiTitolino{
+    width: 175px;
+    background-color: black;
+    color: var(--white);
+    font-family: "Forte";
+    font-size: 25px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 125px;
+    padding-left: 5px;
+    
+}
+
+
+#corpo{
+    width:100%;
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-self: center;
+}
+#lasaiInfo{
+    width:100%;
+    height:100%;
+    padding-left: 20px;
+    display: inline-block;
+    height:250px;
+}
+#lasaiT{
+    font-family: "itim";
+    color:var(--black);
+    font-weight: bold;
+    font-size:30px; 
+    width:100%;
+}
+#lasaiDesc{
+    color:var(--black);
+    font-size:15px;
+    margin-top:10px;
+    margin-bottom: 40px;
+    width:100%;
+    font-family: 'Roboto Mono', monospace;
+}
+#lasaiInfo .button{
+    width:150px;
+    height:40px;
+    font-weight: bold;
+    font-family: "Forte";
+    display: inline-flex;
+    margin-right: 20px;
+    color: var(--link);
+    background-color: var(--bluelectric);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#lasaiInfo .button:hover{
+    transform: scale(1.02);
+    color: aquamarine;
+}
+
+
+#lasaiImg{
+    padding-right: 20px;
+    display: inline-block;
+    width:50%;
+    height:50%;
+}
+#lasaiImg img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+
+/*Che Soggetto!*/
+
+#soggettosez{
+    width:450px;
+    height:300px;
+    background-color: var(--white);
+    border-radius: 25px;
+    margin:0 auto;
+    margin-right: 950px;
+    margin-top: 50px;
+}
+
+#soggettoTitolino{
+    width: 170px;
+    background-color: black;
+    color: var(--white);
+    font-family: "Forte";
+    font-size: 25px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 125px;
+    padding-left: 12px;
+}
+
+
+#corpo2{
+    width:100%;
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-self: center;
+}
+#soggettoInfo{
+    width:100%;
+    height:100%;
+    padding-left: 20px;
+    display: inline-block;
+    height:250px;
+}
+#soggettoT{
+    font-family: "itim";
+    color:var(--black);
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size:30px; 
+    width:100%;
+}
+#soggettoDesc{
+    color:var(--black);
+    font-size:20px;
+    margin-top:10px;
+    margin-bottom: 40px;
+    width:100%;
+}
+#soggettoInfo .button{
+    width:150px;
+    height:40px;
+    font-weight: bold;
+    font-family: "Forte";
+    display: inline-flex;
+    margin-right: 20px;
+    color: var(--link);
+    background-color: var(--bluelectric);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#soggettoInfo .button:hover{
+    transform: scale(1.02);
+    color: aquamarine;
+}
+
+
+#soggettoImg{
+    padding-right: 20px;
+    display: inline-block;
+    width:50%;
+    height:50%;
+}
+#soggettoImg img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+
+
+/*Tutto fa cultura*/
+
+#culturasez{
+    width:450px;
+    height:300px;
+    background-color: var(--white);
+    border-radius: 25px;
+    margin:0 auto;
+    margin-left: 700px;
+    margin-top: 0px;
+    margin-top: 50px;
+}
+
+#culturaTitolino{
+    width: 190px;
+    background-color: black;
+    color: var(--white);
+    font-family: "Forte";
+    font-size: 25px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 125px;
+    padding-left: 12px;
+}
+
+
+#corpo3{
+    width:100%;
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-self: center;
+}
+#culturaInfo{
+    width:100%;
+    height:100%;
+    padding-left: 20px;
+    display: inline-block;
+    height:250px;
+}
+#culturaT{
+    font-family: "itim";
+    color:var(--black);
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size:30px; 
+    width:100%;
+}
+#culturaDesc{
+    color:var(--black);
+    font-size:20px;
+    margin-top:10px;
+    margin-bottom: 40px;
+    width:100%;
+}
+#culturaInfo .button{
+    width:150px;
+    height:40px;
+    font-weight: bold;
+    font-family: "Forte";
+    display: inline-flex;
+    margin-right: 20px;
+    color: var(--link);
+    background-color: var(--bluelectric);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#culturaInfo .button:hover{
+    transform: scale(1.02);
+    color: aquamarine;
+}
+
