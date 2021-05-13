@@ -101,8 +101,18 @@ body{
     left:10px;
 }
 
+#introPresT{
+    width: 1000px;
+    font-family: 'Girassol', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 200%;
+    color: var(--black);
+    text-align: justify;
+}
+
 #paginaPres{
-    width:100%;
+    width:1537.5px;
     height:200vh;
     background-color: var(--ambeee);
     position: absolute;
@@ -111,15 +121,13 @@ body{
     top:100vh;
     padding-left:10px;
     padding-top: 0vh;
-    
 }
-
 
 .notizia{
     width:700px;
     height:auto;
     background-color: var(--white);
-    margin: 60 60px;
+    margin: 30 30px;
     display: flex;
     align-items: center;
     justify-content: center;
