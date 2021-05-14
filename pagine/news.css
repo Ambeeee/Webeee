@@ -99,7 +99,7 @@ body{
     height:200vh;
     background-color: var(--ambeee);
     position: absolute;
-    top:95vh;
+    top:100vh;
     padding-top: 15px;
     
 }
@@ -109,7 +109,7 @@ body{
     height:200vh;
     background-color: var(--ambeee);
     position: absolute;
-    top:60vh;
+    top:90vh;
     padding-top: 0px;
     
 }

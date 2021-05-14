@@ -103,7 +103,7 @@ body{
 
 #paginaPres{
     width:100%;
-    height:200vh;
+    height:300vh - auto;
     background-color: var(--ambeee);
     position: absolute;
     display: flex;
@@ -141,6 +141,7 @@ body{
 .newslImg img{
     margin-top: 500;
     height:400px;
+    border-radius: 25px;
 }
 .newsT{
     margin-left: 30px;

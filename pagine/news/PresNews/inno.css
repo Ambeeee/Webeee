@@ -85,14 +85,14 @@ body{
 #TitoloNews{
     color:var(--black);
     top:450;
-    font-size: 65px;
+    font-size:75px;
     font-family: 'Fredoka One', cursive;
     line-height: 150%;
 }
 
 #SottoNews{
     color:var(--black);
-    margin-top:60;
+    margin-top:30;
     font-size:30px;
     font-family: "Roboto Mono";
     line-height: 150%;  
@@ -109,7 +109,7 @@ body{
 }
 
 #datas{
-    margin-top: 90px;
+    margin-top: 50px;
     font-size: 25px;
     font-family: "Roboto Mono";
     display: inline-flex;
@@ -125,16 +125,20 @@ body{
     font-weight: bolder;
 }
 
+
+/*Testo Notizia*/
+
 #paginaRazzo{
     background-color: var(--white);
-    height: 170vh;
+    top: 200vh;
+    height: 1000px - auto;
     display: flex;
     flex-direction: row;
 }
 
 #testoNews{
     padding-left: 100px;
-    padding-top: 15vh;
+    padding-top: 200px;
     width: 900px;
     font-size: 30px;
     font-family: 'Mukta', sans-serif;
@@ -143,13 +147,13 @@ body{
 }
 
 #Correlati{
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 100px; 
+    margin-bottom: 50px;
     width: 500px;
     height: 500px;
     background-color: var(--ambeee);
     border-radius: 30px;
-    margin-bottom: 50px;
 }
 
 #vedianche{
