@@ -99,6 +99,10 @@ body{
     z-index: 0;
     top:300px;
     left:10px;
+    font-size: 20px;
+    font-family: 'Goblin One', cursive;
+    line-height: 200%;
+    text-align: justify;
 }
 
 #paginaPres{
