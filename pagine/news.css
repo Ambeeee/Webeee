@@ -128,15 +128,15 @@ body{
     width: 500px;
     background-color: black;
     color: var(--white);
-    font-family: "Forte";
-    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
+    font-weight: bolder;
     border-radius: 20px;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
     margin-left: 500px;
-    padding-left: 75px;
-
+    padding-left: 40px;
 }
 #tutteMods{
     width: 100%;
@@ -197,7 +197,7 @@ body{
     width:150px;
     height:40px;
     font-weight: bold;
-    font-family: "Forte";
+    font-family: 'Permanent Marker', cursive;
     display: inline-flex;
     margin-top: 20px;
     margin-right: 20px;

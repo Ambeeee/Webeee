@@ -126,8 +126,8 @@ body{
     width: 175px;
     background-color: black;
     color: var(--white);
-    font-family: "Forte";
-    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
     border-radius: 20px;
     justify-content: center;
     align-items: center;
@@ -171,7 +171,7 @@ body{
     width:150px;
     height:40px;
     font-weight: bold;
-    font-family: "Forte";
+    font-family: 'Permanent Marker', cursive;
     display: inline-flex;
     margin-right: 20px;
     color: var(--link);
@@ -180,13 +180,10 @@ body{
     align-items: center;
     justify-content: center;
 }
-
 #lasaiInfo .button:hover{
     transform: scale(1.02);
     color: aquamarine;
 }
-
-
 #lasaiImg{
     padding-right: 20px;
     display: inline-block;
@@ -215,8 +212,8 @@ body{
     width: 170px;
     background-color: black;
     color: var(--white);
-    font-family: "Forte";
-    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
     border-radius: 20px;
     justify-content: center;
     align-items: center;
@@ -259,7 +256,7 @@ body{
     width:150px;
     height:40px;
     font-weight: bold;
-    font-family: "Forte";
+    font-family: 'Permanent Marker', cursive;
     display: inline-flex;
     margin-right: 20px;
     color: var(--link);
@@ -305,8 +302,8 @@ body{
     width: 190px;
     background-color: black;
     color: var(--white);
-    font-family: "Forte";
-    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
     border-radius: 20px;
     justify-content: center;
     align-items: center;
@@ -349,7 +346,7 @@ body{
     width:150px;
     height:40px;
     font-weight: bold;
-    font-family: "Forte";
+    font-family: 'Permanent Marker', cursive;
     display: inline-flex;
     margin-right: 20px;
     color: var(--link);
