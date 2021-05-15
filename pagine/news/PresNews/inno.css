@@ -146,6 +146,13 @@ body{
     text-align: justify;
 }
 
+#ABaianoMusic{
+    color: var(--link);
+}
+#ABaianoMusic:hover{
+    color: aqua ;
+}
+
 #Correlati{
     margin-top: 200px;
     margin-left: 100px; 
@@ -173,7 +180,7 @@ body{
     width: 450px;
     font-size: 25px;
     font-weight: bold;
-    font-family: "Forte";
+    font-family: "Itim";
     color: var(--black);
 }
 

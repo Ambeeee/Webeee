@@ -78,20 +78,21 @@ body{
 #intestazione{
     position: absolute;
     z-index: 0;
-    top:400px;
-    left:100px;
+    top: 250px;
+    left:50px;
+    height: 500px;
+    width: 500px;
+
 }
 #welcome{
-    color:var(--black);
-    top:500;
-    font-size:45px;
-    line-height: 100%;
+    top: 15px;
+    left: 30px;
+
+
 }
 #webeeeT{
-    color:var(--bluelectric);
-    font-size: 400px;
-    left: 130px;
-    line-height: 65%;
+   margin-top: 10px;
+   left: 50px;
 }
 
 

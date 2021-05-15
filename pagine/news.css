@@ -78,16 +78,16 @@ body{
 #intestazione{
     position: absolute;
     z-index: 0;
-    top:400px;
-    left:100px;
+    top: 160px;
+    left:50px;
+    height: 500px;
+    width: 500px;
+
 }
 
 #webeeeT{
-    color:var(--bluelectric);
-    font-size: 400px;
-    left: 200px;
-    line-height: 65%;
-    margin-left: 70px;
+   margin-top: 10px;
+   left: 50px;
 }
 
 
