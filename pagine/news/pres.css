@@ -147,8 +147,8 @@ body{
     border-radius: 25px;
 }
 .newslImg img{
-    margin-top: 500;
-    height:400px;
+    margin-top: 0;
+    height:800px;
     border-radius: 25px;
 }
 .newsT{
