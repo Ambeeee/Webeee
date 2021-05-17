@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --bluelectric: #2424F2;
+    --ambeee: #E7A026;
+    --black: black;
+    --white: white;
+    --ombrablu: 0px 0px 20px 20px #2424f267;
+    --ombrarancione: 0px 0px 20px 20px rgba(248, 123, 6, 0.4);
+    --link: #13FF22;
+}
+
+body{
+    background-color: var(--black);
+}
+
+#sfondo1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 70;
+    right: 0;
+}
+
+
+/*NAVBAR*/
+#navbar{
+    width:100%;
+    height: 70px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+#logo{
+    width:50px;
+    position: absolute;
+    left:20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#logo:hover{
+    transform: scale(1.10);
+}
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right:20px;
+}
+.menuTab{
+    margin:0 40px;
+    font-size:20px;
+    color: var(--white);
+    font-family: "Itim";
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.menuTab:hover{
+    transform: scale(1.10);
+}
+
+
+/*TITOLO*/
+
+
+/*style="font-family: Forte;"*/
+@font-face {
+	font-family: 'Shelman';
+	src: url('img/SHELMAN.ttf');
+	}
+
+#intestazione{
+    position: absolute;
+    z-index: 0;
+    top:150px;
+    left:750px;
+}
+
+#welcome{
+    color:var(--white);
+    top:200;
+    font-size: 120px;
+    line-height: 100%;
+    margin-left: 380px;
+    width: 50%;
+}
+
+#introTour{
+    position: absolute;
+    height: 500px;
+    z-index: 0;
+    top: 300px;
+    margin-left:50px;
+    font-size: 18px;
+    font-family: 'Goblin One', cursive;
+    line-height: 250%;
+    text-align: justify;
+}
+
+#paginaTour{
+    width:1537px;
+    height:300vh - auto;
+    background-color: var(--ambeee);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top:100vh;
+    padding-left:10px;
+    padding-top: 0vh;
+    
+}
+.button{
+    width:150px;
+    height:40px;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+    display: inline-flex;
+    margin-right: 20px;
+    margin-left: 570px;
+    margin-bottom: 10px;
+    margin-top: -50px;
+    color: var(--link);
+    background-color: var(--bluelectric);
+    color: var(--ambeee);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover{
+    color: var(--link);
+}
+.foto{
+    width:40%;
+    height:40%;
+    background-color: var(--black);
+    margin-left: 150px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.video{
+    width:40%;
+    height:40%;
+    background-color: var(--black);
+    margin-left: 150px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+
+}
