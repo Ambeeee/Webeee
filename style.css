@@ -132,12 +132,16 @@ body{
 }
 #welcome{
     position: relative;
+    height: auto;
+    width: auto;
     top: 15px;
     left: 30px;
 
 
 }
 #webeeeT{
+    height: auto;
+    width: auto;
     position: relative;
    margin-top: 10px;
    left: 50px;
@@ -157,6 +161,9 @@ body{
     
 }
 
+#sezioneNews{
+    width: 100%;
+}
 
 /*La sai l'ultima?*/
 
