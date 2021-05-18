@@ -12,8 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="img/SHELMAN.tff" rel="stylesheet">
+    <meta name="viewport" content="width=device-width" > 
 </head>
 
 <body>
@@ -24,18 +25,28 @@
         <img src="img/Generale/Navbar.png" id=navbar>
         <img src="img/Generale/logo.png" alt="Ambeee" id="logo">
         <div id="menu">
-            <a href="../index.html">
+            <a href="index.html">
                 <div class="menuTab">Home</div>
             </a>
             <div class="menuTab">Chi sono</div>
-            <a href="gallery.html">
+            <a href="pagine/gallery.html">
                 <div class="menuTab">Gallery</div>
             </a>
-            <a href="news.html">
+            <a href="pagine/news.html">
                 <div class="menuTab">News</div>
             </a>
+            <img src="img/Generale/IconaMenu1.png" id="menuIcon" onclick="MenuMobile()">
         </div>
     </div>
+    <div id="mobileNav">
+        <div id="mobileMenu">
+            <a href="index.html"><div class="mobileTab">Home</div></a>
+            <div class="mobileTab">Chi sono</div>
+            <a href="pagine/gallery.html"><div class="mobileTab">Gallery</div></a>
+            <a href="pagine/news.html"><div class="mobileTab">News</div></a>
+        </div>
+    </div>
+    
     <!--Titolo-->
     <div id="intestazione">
         <img src="img/Generale/Welcome to.2.png" id="welcome">
