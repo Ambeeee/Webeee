@@ -152,6 +152,15 @@ body{
    left: 50px;
 }
 
+@media only screen and (max-width:800px) {
+    #welcome{
+        display: none;
+    }
+    #webeeeT{
+        height: 55%;
+        width: 90%;
+    }
+}
 
 
 /*PAGINA*/
@@ -169,6 +178,16 @@ body{
 #sezioneNews{
     width: auto;
     display: block;
+}
+
+
+@media only screen and (max-width:800px) {
+    #sezioneNews{
+        position: relative;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /*La sai l'ultima?*/
@@ -502,3 +521,10 @@ body{
     color: aquamarine;
 }
 
+/*Pagina Mobile*/
+
+@media only screen and (max-width:800px) {
+    #pagina{
+        display: none;
+    }
+}
