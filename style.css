@@ -19,12 +19,14 @@ body{
 }
 
 #sfondo1{
-    position: static;
-    margin-top: 70px;
+    position: relative;
+    margin-top: 0px;
     width: 100%;
     height: 100%;
     top: 70;
     right: 0;
+    display: flex;
+
 }
 
 
@@ -84,11 +86,12 @@ body{
 }
 
 #mobileNav{
-    position: absolute;
-    width: 0%;
+    position: relative;
+    margin-top: 10%;
+    width: 100%;
     height: 100%;
     background-color: var(--bluelectric);
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -100,8 +103,9 @@ body{
     height: 40px;
     background-color: var(--bluelectric);
     color: white;
+    font-size: 35px;
     border-radius: 20px;
-    margin: 20px;
+    margin: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,6 +127,7 @@ body{
 
 #intestazione{
     position: absolute;
+    display: block;
     z-index: 0;
     top: 250px;
     left:50px;
@@ -162,7 +167,8 @@ body{
 }
 
 #sezioneNews{
-    width: 100%;
+    width: auto;
+    display: block;
 }
 
 /*La sai l'ultima?*/
