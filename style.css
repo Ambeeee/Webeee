@@ -157,6 +157,11 @@ body{
 }
 
 @media only screen and (max-width:800px) {
+    #intestazione{
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
     #welcome{
         display: none;
     }
