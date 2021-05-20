@@ -65,6 +65,40 @@ body{
     transform: scale(1.10);
 }
 
+/*MOBILE*/
+#menuIcon{
+    width: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    display: none;
+}
+
+#menuIcon:hover{
+    transform: scale(1.08);
+}
+
+@media only screen and (max-width:800px) {
+    #menuIcon{
+        display: block;
+    }
+    .menuTab{
+        display: none;
+    }
+}
+
+#mobileNav{
+    position: relative;
+    margin-top: 15%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bluelectric);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
 
 /*TITOLO*/
 
@@ -90,6 +124,24 @@ body{
    left: 50px;
 }
 
+@media only screen and (max-width:800px) {
+    #intestazione{
+        height: 21%;
+        width: 35%;
+        margin-right: 20%;
+        margin-bottom: 50%;
+    }
+    #welcome{
+        display: none;
+    }
+    #webeeeT{
+        height: 80%;
+        width: 100%;
+        left: 0;
+        margin-left: 2%;
+        margin-right: 0%;
+    }
+}
 
 
 /*PAGINA Categorie*/
@@ -101,14 +153,13 @@ body{
     position: absolute;
     top:100vh;
     padding-top: 15px;
-    
 }
 
 #paginaMods2{
     width:100%;
     height:200vh;
     background-color: var(--ambeee);
-    position: absolute;
+    position: relative;
     top:90vh;
     padding-top: 0px;
     
@@ -138,6 +189,23 @@ body{
     margin-left: 500px;
     padding-left: 40px;
 }
+
+#NewsMobile{
+    width: 75%;
+    background-color: black;
+    color: var(--white);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
+    font-weight: bolder;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-left: 4%;
+}
+
 #tutteMods{
     width: 100%;
     height: fit-content;
@@ -211,4 +279,70 @@ body{
 .button:hover{
     transform: scale(1.02);
     color: aquamarine;
+}
+
+
+#ModsMobile{
+    position: relative;
+    margin-top: 15%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bluelectric);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+/*Pagina Mobile*/
+#paginaModsM{
+    width:100%;
+    height:200vh;
+    background-color: var(--ambeee);
+    position: absolute;
+    display: none;
+    top:100vh;
+    padding-top: 15px;
+}
+
+
+@media only screen and (max-width:800px) {
+    #paginaModsM{
+        display: block;
+        position: absolute;
+    }
+    #paginaMods{
+        display: none;
+    }
+    #paginaMods2{
+        display: none;
+    }
+}
+
+.mobileMods{
+    width:33%;
+    height:100%;
+    background-color: var(--white);
+    margin: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.modsImgM{
+    width:calc(100% - 40px);
+    height:170px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    border-radius: 5%;
 }
