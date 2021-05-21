@@ -99,6 +99,24 @@ body{
     transition: all 0.5s ease-in-out;
 }
 
+.mobileTab{
+    width: 130px;
+    height: 40px;
+    background-color: var(--bluelectric);
+    color: white;
+    font-size: 35px;
+    border-radius: 20px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Itim";
+}
+
+.mobileTab:hover{
+    transform: scale(1.10);
+}
+
 
 /*TITOLO*/
 
