@@ -90,3 +90,29 @@ function MenuMobilePres(){
         iconmenu.src = "../../img/Generale/IconaMenu1.png" 
     }
 }
+
+//PresNews Mobile
+function MenuMobilePresN(){
+    var mobileNav = document.getElementById("mobileNav");
+    var iconmenu = document.getElementById("menuIcon");
+    var intestazione = document.getElementById("intestazione")
+    var sfondo1 = document.getElementById("sfondo1")
+    var intro = document.getElementById("introPresM")
+    if(menu == "close"){
+        mobileNav.style.display = "flex";
+        intestazione.style.display = "none";
+        sfondo1.style.display = "none";
+        intro.style.display = "none";
+        menu="open";
+        iconmenu.src = "../../../img/Generale/IconaMenuChiudi.png";    
+    }
+
+    else{
+        mobileNav.style.display = "none";
+        intestazione.style.display = "block";
+        sfondo1.style.display = "flex";
+        intro.style.display = "flex";
+        menu = "close"
+        iconmenu.src = "../../../img/Generale/IconaMenu1.png" 
+    }
+}

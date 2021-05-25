@@ -65,6 +65,47 @@ body{
     transform: scale(1.10);
 }
 
+/*MOBILE*/
+#menuIcon{
+    width: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    display: none;
+}
+
+#menuIcon:hover{
+    transform: scale(1.08);
+}
+
+#mobileNav{
+    position: relative;
+    margin-top: 15%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bluelectric);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+.mobileTab{
+    width: 130px;
+    height: 40px;
+    background-color: var(--bluelectric);
+    color: white;
+    font-size: 35px;
+    border-radius: 20px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Itim";
+}
+
+.mobileTab:hover{
+    transform: scale(1.10);
+}
 
 /*TITOLO*/
 
@@ -188,4 +229,28 @@ body{
     margin-top: 200px;
     margin-left: 60px;
     border-radius: 10px;
+}
+
+#NewsImgM{
+    display: none;
+    width: 50%;
+    height: 5%;
+}
+
+@media only screen and (max-width:800px) {
+    #menuIcon{
+        display: block;
+    }
+    .menuTab{
+        display: none;
+    }
+    #paginaRazzo{
+        flex-direction: column;
+    }
+    #NewsImg{
+        display: none;
+    }
+    #NewsImgM{
+        display: flex;
+    }
 }
