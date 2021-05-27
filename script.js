@@ -129,18 +129,21 @@ function MenuMobileG(){
 
 //PresNews Mobile
 function MenuMobilePresN(){
+    var sfondo = document.getElementById("sfondo1")
     var Nav = document.getElementById("mobileNav")
     var intestazione = document.getElementById("intestazione")
     var icona = document.getElementById("menuIcon")
     if(menu == "close"){
-        Nav.style.display = "flex";
+        sfondo.style.display = "none"
         intestazione.style.display = "none";
+        Nav.style.display = "block";
         icona.src = "../../../img/Generale/IconaMenuChiudi.png"
         menu="open";
     }
 
     else{
         Nav.style.display = "none";
+        sfondo.style.display = "flex"
         intestazione.style.display = "block";
         icona.src = "../../../img/Generale/IconaMenu1.png"
         menu = "close"
