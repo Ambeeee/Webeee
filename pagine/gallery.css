@@ -41,6 +41,7 @@ body{
     position: absolute;
     left:20px;
     transition: transform 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 #logo:hover{
@@ -297,4 +298,8 @@ body{
     .mods{
         margin: 4%;
     }
+}
+
+#stickers{
+    display: none;
 }
