@@ -124,6 +124,7 @@ body{
     top: -60%;
     left:5%;
     width: 55%;
+    margin: 0;
 }
 #TitoloNews{
     color:var(--black);
@@ -178,7 +179,7 @@ body{
 
 #paginaRazzo{
     background-color: var(--white);
-    margin-top: -36%;
+    margin-top: -45%;
     height: 1000px - auto;
     display: flex;
     flex-direction: row;
@@ -240,8 +241,10 @@ body{
 
 #NewsImgM{
     display: none;
-    width: 50%;
-    height: 5%;
+    width: 100%;
+    height: 0,75%;
+    border-radius: 10%;
+    box-shadow: var(--bluelectric);
 }
 
 @media only screen and (max-width:800px) {
@@ -251,18 +254,67 @@ body{
     .menuTab{
         display: none;
     }
+    #intestazione{
+        width: 80%;
+    }
     #TitoloNews{
-        font-size: 200%;
+        font-size: 180%;
+        width: 75%;
+        margin: 20% 0%;
+    }
+    #SottoNews{
+        font-size: 100%;
+        margin-bottom: 10%;
+    }
+    #datas{
+        margin-top: 2%;
+        width: 118%;
+        font-size: 110%;
+        font-family: "Roboto Mono";
+        display: inline-flex;
+        flex-direction: row;  
+    }
+    .k{
+        width: 20%;
+    }
+    #dataora{
+        width: 30%;
+        margin-left: -4%;
     }
     #paginaRazzo{
         flex-direction: column;
-        margin-top: -40%;
+        margin-top: -100%;
         width: 100%;
+    }
+    #testoNews{
+        width: 85%;
     }
     #NewsImg{
         display: none;
     }
     #NewsImgM{
         display: flex;
+    }
+    #correlati{
+        margin-top: 4%;
+        margin-left: 10%; 
+        margin-bottom: 50px;
+        padding-left: 6%;
+        width: 75%;
+        height: 50%;
+        background-color: var(--ambeee);
+        border-radius: 30px;
+    }
+    .altraNews{
+        margin: 4%;
+        text-align: center;
+        width: 90%;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: "Itim";
+        color: var(--black);
+    }
+    .altraNews:hover{
+        transform: scale(1);
     }
 }

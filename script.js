@@ -91,27 +91,6 @@ function MenuMobilePres(){
     }
 }
 
-//PresNews Mobile
-function MenuMobilePresN(){
-    var Nav = document.getElementById("mobileNav")
-    var intestazione = document.getElementById("intestazione")
-    var icona = document.getElementById("menuIcon")
-    if(menu == "close"){
-        Nav.style.display = "flex";
-        intestazione.style.display = "none";
-        icona.src = "../../../img/Generale/IconaMenuChiudi.png"
-        menu="open";
-    }
-
-    else{
-        Nav.style.display = "none";
-        intestazione.style.display = "block";
-        icona.src = "../../../img/Generale/IconaMenu1.png"
-        menu = "close"
-    }
-}
-
-
 //Sticker Top Secret
 var stick = "close"
 
@@ -130,6 +109,26 @@ function TopSecret(){
 
 //PresNews Mobile
 function MenuMobileG(){
+    var Nav = document.getElementById("mobileNav")
+    var intestazione = document.getElementById("intestazione")
+    var icona = document.getElementById("menuIcon")
+    if(menu == "close"){
+        Nav.style.display = "flex";
+        intestazione.style.display = "none";
+        icona.src = "../../../img/Generale/IconaMenuChiudi.png"
+        menu="open";
+    }
+
+    else{
+        Nav.style.display = "none";
+        intestazione.style.display = "block";
+        icona.src = "../../../img/Generale/IconaMenu1.png"
+        menu = "close"
+    }
+}
+
+//PresNews Mobile
+function MenuMobilePresN(){
     var Nav = document.getElementById("mobileNav")
     var intestazione = document.getElementById("intestazione")
     var icona = document.getElementById("menuIcon")
