@@ -27,7 +27,7 @@ function MenuMobile(){
 
 //Responsive News
 
-function MenuMobileNews(){
+function MenuMobileNG(){
     var mobileNav = document.getElementById("mobileNav");
     var iconmenu = document.getElementById("menuIcon");
     var intestazione = document.getElementById("intestazione")
