@@ -115,14 +115,14 @@ function MenuMobileG(){
     if(menu == "close"){
         Nav.style.display = "flex";
         intestazione.style.display = "none";
-        icona.src = "../../../img/Generale/IconaMenuChiudi.png"
+        icona.src = "../../img/Generale/IconaMenuChiudi.png"
         menu="open";
     }
 
     else{
         Nav.style.display = "none";
         intestazione.style.display = "block";
-        icona.src = "../../../img/Generale/IconaMenu1.png"
+        icona.src = "../../img/Generale/IconaMenu1.png"
         menu = "close"
     }
 }
