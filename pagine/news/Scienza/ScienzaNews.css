@@ -316,7 +316,7 @@ body{
     }
     #paginaRazzo1{
         flex-direction: column;
-        margin-top: -100%;
+        margin-top: -95%;
         width: 100%;
     }
     #paginaLunga{
@@ -327,7 +327,7 @@ body{
     }
     #testoNews{
         width: 85%;
-        padding-top: 80%;
+        padding-top: 70%;
     }
     #NewsImg{
         display: none;
