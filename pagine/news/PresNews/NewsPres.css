@@ -298,7 +298,7 @@ body{
     }
     #paginaRazzo{
         flex-direction: column;
-        margin-top: -125%;
+        margin-top: -110%;
         width: 100%;
     }
     #testoNews{
