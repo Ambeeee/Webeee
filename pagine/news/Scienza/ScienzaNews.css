@@ -191,9 +191,9 @@ body{
 
 /*Testo Notizia*/
 
-#paginaRazzo{
+#paginaRazzo1{
     background-color: var(--white);
-    margin-top: -43%;
+    margin-top: -30%;
     height: 1000px - auto;
     display: flex;
     flex-direction: row;
@@ -301,14 +301,22 @@ body{
     .k{
         width: 20%;
     }
+    #readingTime{
+        margin-right: 0.5%;
+    }
+    #owner{
+        font-size: 80%;
+        margin-left: 0.5%;
+        margin-right: 15%;
+    }
     #dataora{
         width: 35%;
         margin-left: 0%;
         font-size: 80%;
     }
-    #paginaRazzo{
+    #paginaRazzo1{
         flex-direction: column;
-        margin-top: -115%;
+        margin-top: -100%;
         width: 100%;
     }
     #paginaLunga{
