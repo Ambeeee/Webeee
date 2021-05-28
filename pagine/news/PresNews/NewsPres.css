@@ -278,8 +278,9 @@ body{
         width: 20%;
     }
     #dataora{
-        width: 30%;
-        margin-left: -4%;
+        width: 35%;
+        margin-left: 0%;
+        font-size: 80%;
     }
     #paginaRazzo{
         flex-direction: column;
