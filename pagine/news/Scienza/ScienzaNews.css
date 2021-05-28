@@ -316,7 +316,7 @@ body{
     }
     #paginaRazzo1{
         flex-direction: column;
-        margin-top: -95%;
+        margin-top: -100%;
         width: 100%;
     }
     #paginaLunga{
