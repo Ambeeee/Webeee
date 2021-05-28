@@ -1,8 +1,8 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="aiutatemi.css">
-    <script src=script.js></script>
+    <link rel="stylesheet" href="../Scienza/ScienzaNews.css">
+    <script src="../../../script.js"></script>
     <title>News/Musica - Webeee</title>
     <link rel="shortcut icon" href="../../img/Generale/logo.png" type="image/png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,23 +19,33 @@
 </head>
 
 <body>
-    <img src="../../img/Generale/Sfondo1bI.png" id="sfondo1">
+    <img src="../../../img/Generale/Sfondo1bI.png" id="sfondo1">
     
     <!--Navbar-->
     <div id="NavBar">
-        <img src="../../img/Generale/Navbar.png" id=navbar>
-        <img src="../../img/Generale/logo.png" alt="Ambeee" id="logo">
+        <img src="../../../img/Generale/Navbar.png" id=navbar>
+        <img src="../../../img/Generale/logo.png" alt="Ambeee" id="logo">
         <div id="menu">
-            <a href="../../index.html">
+            <a href="../../../index.html">
                 <div class="menuTab">Home</div>
             </a>
             <div class="menuTab">Chi sono</div>
-            <a href="../gallery.html">
+            <a href="../../gallery.html">
                 <div class="menuTab">Gallery</div>
             </a>
-            <a href="../news.html">
+            <a href="../../news.html">
                 <div class="menuTab">News</div>
             </a>
+            <img src="../../../img/Generale/IconaMenu1.png" id="menuIcon" onclick="MenuMobilePresN()">
+        </div>
+    </div>
+    <!--NavbarMobile-->
+    <div id="mobileNav">
+        <div id="mobileMenu">
+            <a href="../../../index.html"><div class="mobileTab">Home</div></a>
+            <div class="mobileTab">Chi sono</div>
+            <a href="../../gallery.html"><div class="mobileTab">Gallery</div></a>
+            <a href="../../news.html"><div class="mobileTab">News</div></a>
         </div>
     </div>
     <!--Titolo-->
@@ -49,7 +59,7 @@
             <div id="dataora">26 marzo 2021 - 18:16</div>
         </div>
     </div>
-    <div id="paginaRazzo">
+    <div id="paginaRazzo1">
         <div id="testoNews">
             <p>
                 Sembra che tutti gli artisti di grande rilievo del momento abbiano avuto origine da questa città. Infatti la classe terza B del liceo scientifico Alessandro Volta, che vantava già il noto pittore e scultore <b>Leonardo Moretti,</b> sembra aver deciso di puntare tutto sulla discografia. Ma vediamo cosa è successo nel dettaglio.
@@ -70,10 +80,10 @@
         </div>
         <div id="Correlati">
             <div id="vedianche">Vedi anche:</div>
-            <a href="../news/PresNews/razzo.html">
+            <a href="../../news/PresNews/razzo.html">
                 <div class="altraNews">Spazio. tutti al sicuro nel <br>Bunker di Ridolfi</div>
             </a>
-            <a href="../news/PresNews/inno.html">
+            <a href="../../news/PresNews/inno.html">
                 <div class="altraNews">Italia, Ridolfi cambia l'Inno Nazionale in qualcosa di
             
                 più... Patriottico</div>

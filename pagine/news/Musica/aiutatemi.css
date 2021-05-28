@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 :root{
@@ -65,9 +66,50 @@ body{
     transform: scale(1.10);
 }
 
+/*MOBILE*/
+#menuIcon{
+    width: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    display: none;
+}
+
+#menuIcon:hover{
+    transform: scale(1.08);
+}
+
+#mobileNav{
+    position: relative;
+    margin-top: 15%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bluelectric);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+.mobileTab{
+    width: 130px;
+    height: 40px;
+    background-color: var(--bluelectric);
+    color: white;
+    font-size: 35px;
+    border-radius: 20px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Itim";
+}
+
+.mobileTab:hover{
+    transform: scale(1.10);
+}
+
 
 /*TITOLO*/
-
 
 /*style="font-family: Forte;"*/
 @font-face {
@@ -188,4 +230,92 @@ body{
     margin-top: 200px;
     margin-left: 60px;
     border-radius: 10px;
+}
+
+@media only screen and (max-width:800px) {
+    #menuIcon{
+        display: block;
+    }
+    .menuTab{
+        display: none;
+    }
+    #intestazione{
+        width: 80%;
+    }
+    #TitoloNews{
+        font-size: 180%;
+        width: 75%;
+        margin: 20% 0%;
+    }
+    #SottoNews{
+        font-size: 100%;
+        margin-bottom: 10%;
+    }
+    #datas{
+        margin-top: 2%;
+        width: 118%;
+        font-size: 110%;
+        font-family: "Roboto Mono";
+        display: inline-flex;
+        flex-direction: row;  
+    }
+    .k{
+        width: 20%;
+    }
+    #readingTime{
+        margin-right: 0.5%;
+    }
+    #owner{
+        font-size: 80%;
+        margin-left: 0.5%;
+        margin-right: 15%;
+    }
+    #dataora{
+        width: 35%;
+        margin-left: 0%;
+        font-size: 80%;
+    }
+    #paginaRazzo1{
+        flex-direction: column;
+        margin-top: -95%;
+        width: 100%;
+    }
+    #paginaLunga{
+        flex-direction: column;
+        margin-top: -150%;
+        padding-top: 2%;
+        height: 530%;
+    }
+    #testoNews{
+        width: 85%;
+        padding-top: 70%;
+    }
+    #NewsImg{
+        display: none;
+    }
+    #NewsImgM{
+        display: flex;
+    }
+    #correlati{
+        margin-top: 4%;
+        margin-left: 10%; 
+        margin-bottom: 50px;
+        padding-left: 6%;
+        width: 75%;
+        height: 50%;
+        background-color: var(--ambeee);
+        border-radius: 30px;
+    }
+    .altraNews{
+        margin: 4%;
+        text-align: center;
+        width: 90%;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: "Itim";
+        color: var(--black);
+    }
+    .altraNews:hover{
+        transform: scale(1);
+    }
 }
