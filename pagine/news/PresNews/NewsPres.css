@@ -298,12 +298,12 @@ body{
     }
     #paginaRazzo{
         flex-direction: column;
-        margin-top: -110%;
+        margin-top: -115%;
         width: 100%;
     }
     #testoNews{
         width: 85%;
-        padding-top: 20%;
+        padding-top: 50%;
     }
     #NewsImg{
         display: none;
