@@ -66,6 +66,7 @@ body{
     transform: scale(1.10);
 }
 
+
 /*MOBILE*/
 #menuIcon{
     width: 30px;
@@ -76,6 +77,15 @@ body{
 
 #menuIcon:hover{
     transform: scale(1.08);
+}
+
+@media only screen and (max-width:800px) {
+    #menuIcon{
+        display: block;
+    }
+    .menuTab{
+        display: none;
+    }
 }
 
 #mobileNav{
@@ -89,6 +99,10 @@ body{
     align-items: center;
     overflow: hidden;
     transition: all 0.5s ease-in-out;
+}
+#mobileMenu{
+    margin-top: 60%;
+    margin-left: 20%;
 }
 .mobileTab{
     width: 130px;
@@ -108,8 +122,8 @@ body{
     transform: scale(1.10);
 }
 
-/*TITOLO*/
 
+/*TITOLO*/
 
 /*style="font-family: Forte;"*/
 @font-face {
