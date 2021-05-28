@@ -193,7 +193,7 @@ body{
 
 #paginaRazzo{
     background-color: var(--white);
-    margin-top: -45%;
+    margin-top: -35%;
     height: 1000px - auto;
     display: flex;
     flex-direction: row;
@@ -201,7 +201,7 @@ body{
 
 #testoNews{
     padding-left: 5%;
-    padding-top: 20%;
+    padding-top: 15%;
     width: 60%;
     font-size: 30px;
     font-family: 'Mukta', sans-serif;
@@ -303,6 +303,7 @@ body{
     }
     #testoNews{
         width: 85%;
+        padding-top: 20%;
     }
     #NewsImg{
         display: none;
