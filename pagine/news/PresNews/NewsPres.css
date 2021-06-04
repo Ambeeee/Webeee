@@ -345,6 +345,9 @@ body{
     #NewsImgInterna{
         display: none;
     }
+    .ImgCompleta{
+        display: none;
+    }
     .ImgM{
         display: flex;
         flex-direction: column-reverse;
