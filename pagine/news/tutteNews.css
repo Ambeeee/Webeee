@@ -179,22 +179,21 @@ body{
     flex-direction: row;
     border-radius: 25px;
 }
+
 .newsImg{
-    width:calc(100% - 40px);
-    height:180px;
+    width:100%;
+    height:100%;
     margin: 4%;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 25px;
+    border-radius: 0%;
 }
-.newslImg img{
-    margin-top: 0;
-    height:800px;
-    border-radius: 25px;
-    width: 25%;
-    height: 25%;
+.newsImg img{
+    margin: 0%;
+    height:100%;
+    width: 100%;
+    border-radius: 20%;
 }
 .newsT{
     margin-left: 30px;
