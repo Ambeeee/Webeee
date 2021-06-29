@@ -212,7 +212,7 @@ body{
     padding-left: 5%;
     padding-top: 15%;
     width: 60%;
-    font-size: 30px;
+    font-size: 175%;
     font-family: 'Mukta', sans-serif;
     line-height: 160%;
     text-align: justify;
@@ -338,6 +338,7 @@ body{
     #testoNews{
         width: 85%;
         padding-top: 80%;
+        font-size: 125%;
     }
     #NewsImg{
         display: none;
