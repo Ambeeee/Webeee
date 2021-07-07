@@ -86,6 +86,9 @@ body{
     .menuTab{
         display: none;
     }
+    #SottoNews{
+        font-size: 90%;
+    }
 }
 
 #mobileNav{
