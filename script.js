@@ -92,17 +92,15 @@ function MenuMobilePres(){
 }
 
 //Sticker Top Secret
-var stick = "close"
-
 function TopSecret(){
-    var a = document.getElementById("stickers")
+    var nav = document.getElementById("menu")
+    var schermo = document.getElementById("schermo")
+    var intestazione = document.getElementById("intestazione")
+    var logo = document.getElementById("logo")
     if(menu == "close"){
-        a.style.display = "flex";
-        stick = "open";
-    }
-    else{
-        a.style.display = "none";
-        stick = "close";
+        schermo.style.display = "flex";
+        intestazione.style.display = "none";
+        nav = "none";
     }
 }
 

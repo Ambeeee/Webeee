@@ -212,8 +212,8 @@ body{
     color: var(--link);
 }
 .foto{
-    width:40%;
-    height:20%;
+    width:50%;
+    height:15%;
     background-color: var(--black);
     margin-top: 5%;
     margin-left: 5%;
