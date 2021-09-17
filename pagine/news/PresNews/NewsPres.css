@@ -194,7 +194,7 @@ body{
 #paginaRazzo{
     background-color: var(--white);
     margin-top: -43%;
-    height: 1000px - auto;
+    height: 400%;
     display: flex;
     flex-direction: row;
 }

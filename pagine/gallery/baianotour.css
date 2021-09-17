@@ -169,7 +169,7 @@ body{
 #introTour{
     position: absolute;
     height:30%;
-    width: 80%;
+    width: 50%;
     z-index: 0;
     top: 30%;
     margin-left:5%;
@@ -188,7 +188,7 @@ body{
     flex-direction: column;
     top:100%;
     padding-left:10px;
-    padding-top: 0vh;
+    padding-top: 10%;
     
 }
 .button{
